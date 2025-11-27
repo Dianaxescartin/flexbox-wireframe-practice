@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+    color: white
+}
+
+.item {
+    margin: 8px;
+    padding: 8px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+header {
+    background: #9e2063;
+}
+
+#article-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #24b47a;
+}
+
+.article-text {
+    font-size: 1rem;
+    padding: 16px
+}
+
+article {
+    background-color: #e4195b;
+}
+
+aside {
+    background-color: #106095;
+}
+
+footer {
+    background-color: #e06b26;
+}
