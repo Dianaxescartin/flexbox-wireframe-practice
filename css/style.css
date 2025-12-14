@@ -1,8 +1,9 @@
 .container {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     margin: 16px;
-    color: white
+    color: white;
 }
 
 .item {
@@ -38,4 +39,19 @@ aside {
 
 footer {
     background-color: #e06b26;
+}
+
+@media screen and (min-width: 992px) {
+    .main-aside {
+        display: flex;
+        flex-direction: row;
+    }
+    main {
+        flex-grow: 6;
+    }
+    aside {
+        flex-grow: 1;
+        order: -1;
+        align-content: center;
+    }
 }
